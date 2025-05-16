@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title></title>
+<meta name="Generator" content="Cocoa HTML Writer">
+<style type="text/css">
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000}
+span.s1 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 12.00px}
+</style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="Generator" content="Cocoa HTML Writer"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;style type="text/css"&gt;</span></p>
+<p class="p1"><span class="s1">p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000}</span></p>
+<p class="p1"><span class="s1">span.s1 {font-family: 'Helvetica'; font-weight: normal; font-style: normal; font-size: 12.00px}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// FID: "securly@svvsd.org"&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// USER: "yoder.zachar@svvsd.org"&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// Variables provided by PHP&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var cluster = "uswest"; // Used to determine what DNS servers to</span></p>
+<p class="p1"><span class="s1">access&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var api_endpoint = "uswest2.v1api.securly.com";&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var fid = "securly@svvsd.org"; // Reserved for future use&lt;/</span></p>
+<p class="p1"><span class="s1">span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var unifyid = false;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var stateid = "1s30zju4jppea"; var did = "inj-1tktrtc62cygj"; var</span></p>
+<p class="p1"><span class="s1">logging = true; // Extra logging&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// This users state data&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// Used to track the device&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// Informational&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var user_agent = "BackgroundShortcutRunner/3303.0.5</span></p>
+<p class="p1"><span class="s1">CFNetwork/3826.400.120 Darwin/24.3.0";&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var ua_browser = "BackgroundShortcutRunner 3303.0.5";&lt;/</span></p>
+<p class="p1"><span class="s1">span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var ua_os = "Other";&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var pac_mode = "bypass"; // "filter" or "bypass" - Filtering</span></p>
+<p class="p1"><span class="s1">browsers bypassing for everything else&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// Variables calculated by the pac&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// @todo This needs to be securly.com for production&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var proxy_server = "PROXY uswest-dp.securly.com:80;</span></p>
+<p class="p1"><span class="s1">DIRECT";&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var blackhole = "PROXY 240.0.0.1:80";&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var internal_ip = 0;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// The cache buster is incremented whenever smartpac detects a</span></p>
+<p class="p1"><span class="s1">circumstance that would&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;// require cache invalidation.&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var cb = 0;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var brokered = true;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var last_sync_timestamp = 0;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var now = 0;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var securlydns = false;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var pause = false;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;var kill_switch_exemption = false;&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;function FindProxyForURL(url, host) {&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;now = new Date();&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p class="p1"&gt;&lt;span class="s1"&gt;now = Math floor(now getTime() / 1000);&lt;/span&gt;&lt;/p&gt;</span></p>
+</body>
+</html>
